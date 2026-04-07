@@ -1,4 +1,4 @@
-# SAMD21 BLDC Driver for GM3506 Motor
+# SAMD21 BLDC Driver for the GM3506 Motor
 Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver with a form factor fitting the IFlight GM3506 Motor
 <img src="Media/Circuit_3DCADView.png" alt="Driver" width="600">
 
