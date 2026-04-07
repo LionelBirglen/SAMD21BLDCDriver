@@ -13,9 +13,9 @@ There are four LEDs on the board, the red one indicates that 3.3V power is activ
 Contents:
 - Circuit/: interactive html BOM and 3D step model (populated board)
 - Enclosure/: files for 3D printing two versions of a proposed enclosure for the motor and board
-- Gerber/: zip file with the gerber and drill files for manufacturing. PCA files are also provided if factory assembly is desired: bom and verified component location files*
+- Gerber/: zip file with the gerber and drill files for manufacturing. PCA files are also provided if factory assembly is desired: bom and verified component location files (see note below)
 - Media/: general pics and videos
-* note: since only the AS5048A is on the backside, manual soldering of the latter is assumed.
+note: since only the AS5048A is on the backside, manual soldering of the latter is assumed.
 
 Video:<br>
 <img src="Media/SAMD21Driver_Demo.gif" alt="Demo"><br>
