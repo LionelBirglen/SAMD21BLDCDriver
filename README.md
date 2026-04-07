@@ -8,7 +8,7 @@ The controllers are daisy chainable and approx. 8A can be passed from one board 
 
 To control the DRV8313 power driver the following lines are used: PA02 (D0) is Enable, PB08 (D6) is PWM1, PA04 (D1) is PWM2, PB09 (D7) is PWM3. Low side total current sensing is available through a 0.1 ohm power resistor connected to the PA10 line (A2). An AS5048A encoder chip is mounted on the backside at the center of the board and connected to the SPI port: PA05 (D9) is MISO, PA06 (D10)is MOSI, PA07 (D8) is CLK, PA11 (D3) is SS. The decoupling capacitors close to that chip are recommended but can be left unpopulated without issues from my experiments due to the quite large bank of bulk capacitors located on the other side.
 
-There are four LEDs on the board, the red one indicates that 3.3V power is active. The other three are available to the user, if you use the Seeestudio firmware, one will blink during serial communication (green) and the other two (orange) are connected to the Rx/Tx lines. Powering the board with 3.3V is done through either the USB lines or the XT30 power connector. Switching from one power source to the other is automatic since both lines are OR-ed and protected with 1N5819WS diodes. For actual control of the motor, the simplefoc library works very well and is recommended, see: https://simplefoc.com/. CAD models for 3D printing enclosures are also provided.<br>
+There are four LEDs on the board, the red one indicates that 3.3V power is active. The other three are available to the user, if you use the Seeestudio firmware, one will blink during serial communication (green) and the other two (orange) are connected to the Rx/Tx lines. Powering the board with 3.3V is done through either the USB lines or the XT30 power connector. Switching from one power source to the other is automatic since both lines are OR-ed and protected with 1N5819WS diodes. For actual control of the motor, the SimpleFOC library works very well and is recommended, see: https://simplefoc.com/. CAD models for 3D printing enclosures are also provided.<br>
 
 Contents:
 - Circuit/: interactive html BOM and 3D step model (populated board)
@@ -19,7 +19,7 @@ Contents:
 
 Video:<br>
 <img src="Media/SAMD21Driver_Demo.gif" alt="Demo"><br>
-Demonstrating the position control of two motors in series. When the white button is pressed, left motor turns 180 degrees while the right one makes a full turn. Measured response time is around 180 ms.
+Demonstrating the position control of two motors in series using SimpleFOC. When the white button is pressed, left motor turns 180 degrees while the right one makes a full turn. Measured response time is around 180 ms.
 
 Prof. Lionel Birglen<br>
 Polytechnique Montreal, 2026<br>
