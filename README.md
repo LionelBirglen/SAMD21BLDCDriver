@@ -17,7 +17,7 @@ Contents:
 - Media/: general pics and videos
 
 Video:<br>
-<img src="Media/SAMD21Driver_demo.gif" alt="Demo">
+<img src="Media/SAMD21Driver_Demo.gif" alt="Demo">
 Demonstrating the position control of two motors in series. When the white button is pressed, one motor turns 180 degrees and the other 360 degrees. Measured response time is around 180 ms.
 
 Prof. Lionel Birglen<br>
