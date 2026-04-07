@@ -14,7 +14,7 @@ Contents:
 - Circuit/: interactive html BOM and 3D step model (populated board)
 - Enclosure/: files for 3D printing two versions of a proposed enclosure for the motor and board
 - Gerber/: zip file with the gerber and drill files for manufacturing. PCA files are also provided if factory assembly is desired: bom and verified component location files (see note below)
-- Media/: general pics and videos
+- Media/: general pics and videos<br>
 note: since only the AS5048A is on the backside, manual soldering of the latter is assumed.
 
 Video:<br>
