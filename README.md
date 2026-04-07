@@ -1,5 +1,5 @@
-# SAMD21 BLDC Driver
-Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver
+# SAMD21 BLDC Driver for GM3506 Motor
+Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver with a form factor fitting the IFlight GM3506 Motor
 <img src="Media/Circuit_3DCADView.png" alt="Driver" width="600">
 
 This driver is inspired by the project from Jordan Cormack that is presented there: https://cormack.xyz/L433motordriver/ but being far more familiar with the SAMD21 microntroller, I used that one instead of the STM32 of Dr. Cormack's design. The input lines PA08 and PA09 are also now using I2C instead of CAN bus. Therefore, they are simpler to use careful, a big drawback it that it means that these pins are now only 3.3V tolerant. Two 3.3k pullup resistors are integrated to these input lines. The whole board is pin for pin compatible with the Seeeduino XIAO SAMD21 embodiment (https://wiki.seeedstudio.com/Seeeduino-XIAO/) so you can use their firmware to flash the board and then, program it using the USB-C port. The input lines then become D4 and D5 for you to use as you like (I2C or GPIO). See: https://emalliab.wordpress.com/2023/03/12/unbricking-a-seeed-xiao-samd21/ for instructions on how to flash the board through the SWIO 2x5 connector, key pin is indicated by the K letter on the silkscreen. In the following, Seeedstudio equivalent lines are indicated betweeen parentheses. The board has only two electrical layers so it is dirt cheap to manufacture.<br>
