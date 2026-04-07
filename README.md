@@ -1,5 +1,6 @@
 # SAMD21 BLDC Driver
 Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver
+![Driver](Images/)
 
 This driver is inspired by the project from Jordan Cormack that is presented there: https://cormack.xyz/L433motordriver/
 Being far more familiar with the SAMD21 microntroller, I used that one instead of the STM32 of Dr. Cormack's design. The input lines are also now using I2C instead of CAN bus. Pinout is compatible with the Seeeduino XIAO board (https://wiki.seeedstudio.com/Seeeduino-XIAO/) so you can use their firmware to flash the board and then, program it using the USB-C port. See: https://emalliab.wordpress.com/2023/03/12/unbricking-a-seeed-xiao-samd21/ for instructions.
