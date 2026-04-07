@@ -6,7 +6,12 @@ Being far more familiar with the SAMD21 microntroller, I used that one instead o
 
 The controllers are daisy chainable and up to approx. 8A are acceptable so up to 8 GM3506 motors could be connected in series. Maximal input voltage on the XT30 power lines is 60V. Maximal output current per board is around 2-2.5A, depending on cooling. CAD models for 3D printing enclosures are also provided.
 
-Lionel Birglen
-Polytechnique Montreal
-2026
+Contents:
+- Gerber/: zip file with the gerber and drill files. PCA files also provided: bom and component location files
+- Images/: pics
+- Circuit/: xml BOM and 3D step model of the board
+- Enclosure/: 3D files for two versions of an enclosure for the motor and board
+
+Prof. Lionel Birglen<br>
+Polytechnique Montreal, 2026<br>
 License: GNU GPL v3
