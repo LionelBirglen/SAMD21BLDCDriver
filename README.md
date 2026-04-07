@@ -11,10 +11,10 @@ To control the DRV8313 power driver the following lines are used: PA02 (D0) is E
 There are four LEDs on the board, the red one indicates 3.3 power is active. The other three are available to the user, if you use the Seeestudio firmware, one will blink during serial communication and the other two are connected to the Rx/Tx lines. Powering the board is done through either the USB lines or the XT30 power connector. Switching from one to the other is automatic as both power lines are OR-ed and protected with 1N5819WS diodes. For actual control of the motor, the simplefoc library works very well and is recommended, see: https://simplefoc.com/. CAD models for 3D printing enclosures are also provided.<br>
 
 Contents:
-- Circuit/: interactive html BOM and 3D step model
+- Circuit/: interactive html BOM and 3D step model (board)
 - Enclosure/: 3D files for two versions of a proposed enclosure for the motor and board
-- Gerber/: zip file with the gerber and drill files for manufacturing. PCA files also provided if factory assembly is desired: bom and component location files
-- Images/: pics and video
+- Gerber/: zip file with the gerber and drill files for manufacturing. PCA files are also provided if factory assembly is desired: bom and verified component location files
+- Images/: general pics and video
 
 Prof. Lionel Birglen<br>
 Polytechnique Montreal, 2026<br>
