@@ -19,6 +19,10 @@ Contents:
 - Media/: general pics and videos<br>
 note: since only the AS5048A is on the backside, manual soldering of the latter is assumed.
 
+Pictures of fully assembled boards:
+<img src="Media/SAMD21Driver_front.jpeg" alt="Front" width="400"><img src="Media/SAMD21Driver_back.jpeg" alt="Back" width="400">
+<br>
+
 Video:<br>
 <img src="Media/SAMD21Driver_Demo.gif" alt="Demo"><br>
 Demonstration of the position control of two motors in series using SimpleFOC. When the white button is pressed, left motor turns 180 degrees while the right one makes a full turn. Measured response time is around 180 ms.
