@@ -80,8 +80,8 @@ Demonstration of the position control of two GM3506 motors in series using Simpl
 
 ---
 
-Prof. Lionel Birglen
-Polytechnique Montreal, 2026
+Prof. Lionel Birglen<br/>
+Polytechnique Montreal, 2026<br/>
 License: GNU GPL v3
 
 ## DISCLAIMER
