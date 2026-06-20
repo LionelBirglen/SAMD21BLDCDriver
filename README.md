@@ -1,4 +1,4 @@
-# SAMD21 BLDC Driver for the GM3506 and GM4108 Motors
+# SAMD21 BLDC Driver for the IFlight GM3506 and GM4108 Motors
 
 <img src="Media/Circuit_3DCADView.png" alt="Driver" width="600">
 
