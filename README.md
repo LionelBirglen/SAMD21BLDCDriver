@@ -48,9 +48,9 @@ There are four LEDs located besides the motor soldering pads, the red one indica
 
 Powering the board with 3.3V is done through either the USB lines or the XT30 power connector. Switching from one power source to the other is automatic since both lines are OR-ed and protected with 1N5819WS diodes.
 
-## Software
+## Software and Enclosures
 
-For actual control of the motor, the SimpleFOC library works very well and is recommended, see: <https://simplefoc.com/>. CAD files for a 3D printing enclosure are also provided in this repository.
+For actual control of the motor, the SimpleFOC library works very well and is recommended, see: <https://simplefoc.com/>. CAD files for a 3D printing enclosure for both the GM3506 and GM4108 motors are also provided in this repository.
 
 ## Repository Contents
 
