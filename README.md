@@ -2,7 +2,7 @@
 
 <img src="Media/Circuit_3DCADView.png" alt="Driver" width="600">
 
-Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver with a form factor fitting the IFlight GM3506 Motor.
+Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver with a form factor fitting the IFlight GM3506 Motor. Driver specifications are also compatible with the GM4108 motor and an enclosure for the latter is provided.
 
 ## Overview
 
