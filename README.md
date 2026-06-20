@@ -72,7 +72,7 @@ Pictures of fully assembled boards:
 
 [![Demo](https://github.com/LionelBirglen/SAMD21BLDCDriver/raw/main/Media/SAMD21Driver_Demo.gif)](/LionelBirglen/SAMD21BLDCDriver/blob/main/Media/SAMD21Driver_Demo.gif)
 
-Demonstration of the position control of two motors in series using SimpleFOC. When the white button is pressed, left motor turns 180 degrees while the right one makes a full turn. Measured response time is around 180 ms.
+Demonstration of the position control of two GM3506 motors in series using SimpleFOC. When the white button is pressed, left motor turns 180 degrees while the right one makes a full turn. Measured response time is around 180 ms.
 
 ## Version History
 
