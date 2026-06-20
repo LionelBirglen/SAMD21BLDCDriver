@@ -1,4 +1,4 @@
-## Enclosures to 3D print for the driver and GM3506 motor
+## Enclosures to 3D print for the driver and GM3506/4108 motors
 
 ### GM3506:
 Print one of each of SAMD21_GM3506_xxx.stl files<br/>
