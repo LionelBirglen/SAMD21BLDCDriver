@@ -78,12 +78,12 @@ Demonstration of the position control of two GM3506 motors in series using Simpl
 - v1.65: initial release
 - v1.66: pullup resistors changed to 10k (better when multiple drives are daisy chained), trimmed sharp pcb edges, minor adjustments to silkscreen
 
+## DISCLAIMER
+
+This hardware project is provided "as is", and at your own risk. Under no circumstances shall any author be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this hardware/software, even if the authors have been advised of the possibility of such damages.
+
 ---
 
 Prof. Lionel Birglen<br/>
 Polytechnique Montreal, 2026<br/>
 License: GNU GPL v3
-
-## DISCLAIMER
-
-This hardware project is provided "as is", and at your own risk. Under no circumstances shall any author be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this hardware/software, even if the authors have been advised of the possibility of such damages.
