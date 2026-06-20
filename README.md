@@ -46,7 +46,7 @@ The decoupling capacitors close to that chip are recommended but can be left unp
 
 There are four LEDs located besides the motor soldering pads, the red one indicates that 3.3V power is active. The other three are available to the user, if you use the Seeestudio firmware, one will blink during serial communication (green) and the other two (orange) are connected to the Rx/Tx lines.
 
-Powering the board with 3.3V is done through either the USB lines or the XT30 power connector. Switching from one power source to the other is automatic since both lines are OR-ed and protected with 1N5819WS diodes.
+Powering the board with 3.3V is done through either the USB-C lines or the XT30 power connector. Switching from one power source to the other is automatic since both lines are OR-ed and protected with 1N5819WS diodes. Maximal input voltage is 25V. **Careful there is no reverse polarity or overcurrent protection on the input, swapping the XT30 lines will destroy the board!**
 
 ## Software and Enclosures
 
