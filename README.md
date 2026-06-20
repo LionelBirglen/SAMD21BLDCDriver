@@ -1,6 +1,6 @@
 # SAMD21 BLDC Driver for the GM3506 and GM4108 Motors
 
-[![Driver](https://github.com/LionelBirglen/SAMD21BLDCDriver/raw/main/Media/Circuit_3DCADView.png)](/LionelBirglen/SAMD21BLDCDriver/blob/main/Media/Circuit_3DCADView.png)
+<img src="Media/Circuit_3DCADView.png" alt="Driver" width="600">
 
 Brushless motor driver board based on a SAMD21 microcontroller and DRV8313 driver with a form factor fitting the IFlight GM3506 Motor.
 
@@ -65,7 +65,8 @@ Note: since only the AS5048A is on the backside, manual soldering of the latter 
 
 Pictures of fully assembled boards:
 
-[![Front](https://github.com/LionelBirglen/SAMD21BLDCDriver/raw/main/Media/SAMD21Driver_front.jpeg)](/LionelBirglen/SAMD21BLDCDriver/blob/main/Media/SAMD21Driver_front.jpeg) [![Back](https://github.com/LionelBirglen/SAMD21BLDCDriver/raw/main/Media/SAMD21Driver_back.jpeg)](/LionelBirglen/SAMD21BLDCDriver/blob/main/Media/SAMD21Driver_back.jpeg)
+<img src="Media/SAMD21Driver_front.jpeg" alt="pcb front" width="400">
+<img src="Media/SAMD21Driver_back.jpeg" alt="pcb back" width="400">
 
 ## Video
 
