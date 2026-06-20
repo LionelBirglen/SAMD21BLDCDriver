@@ -65,8 +65,8 @@ Note: since only the AS5048A is on the backside, manual soldering of the latter 
 
 Pictures of fully assembled boards:
 
-<img src="Media/SAMD21Driver_front.jpeg" alt="pcb front" width="400">
-<img src="Media/SAMD21Driver_back.jpeg" alt="pcb back" width="400">
+<img src="Media/SAMD21Driver_front.jpeg" alt="pcb front" width="350">
+<img src="Media/SAMD21Driver_back.jpeg" alt="pcb back" width="350">
 
 ## Video
 
