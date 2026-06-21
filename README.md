@@ -59,7 +59,7 @@ For actual control of the motor, the SimpleFOC library works very well and is re
 - `Gerber/`: zip file with the gerber and drill files for manufacturing. PCA files are also provided if factory assembly is desired: bom and verified component location files (see note below)
 - `Media/`: general pics and videos
 
-Note: since only the AS5048A is on the backside, manual soldering of the latter is assumed.
+Note: since only the AS5048A is on the backside, manual soldering of the latter is assumed. Single face PCBA costs significantly less so almost all components were placed on the front. Only the AS5048A needs to be soldered on the back.
 
 ## Pictures
 
