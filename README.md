@@ -50,7 +50,7 @@ Powering the board with 3.3V is done through either the USB-C lines or the XT30 
 
 ## Software and Enclosures
 
-For actual control of the motor, the SimpleFOC library works very well and is recommended, see: <https://simplefoc.com/>. CAD files for a 3D printing enclosure for both the GM3506 and GM4108 motors are also provided in this repository.
+For actual control of the motor, the SimpleFOC library works very well and is recommended, see: <https://simplefoc.com/>. CAD files of a 3D printed enclosure for both the GM3506 and GM4108 motors are also provided in this repository.
 
 ## Repository Contents
 
